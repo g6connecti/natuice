@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+:root {
+  --natuice-purple: #531e6b;
+  --natuice-purple-dark: #381049;
+  --natuice-purple-hover: #46175c;
+  --natuice-yellow: #fed836;
+  --natuice-yellow-hover: #f0c922;
+  --natuice-yellow-text: #926200;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+}
+
+.font-serif-display {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.font-outfit {
+  font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* Natuice Palette Utilities based on Storefront Facade */
+.bg-natuice-purple {
+  background-color: #531e6b;
+}
+.bg-natuice-purple-dark {
+  background-color: #381049;
+}
+.hover\:bg-natuice-purple-hover:hover {
+  background-color: #46175c;
+}
+.text-natuice-purple {
+  color: #531e6b;
+}
+.text-natuice-purple-dark {
+  color: #381049;
+}
+.border-natuice-purple {
+  border-color: #531e6b;
+}
+
+.bg-natuice-yellow {
+  background-color: #fed836;
+}
+.hover\:bg-natuice-yellow-hover:hover {
+  background-color: #ecc41f;
+}
+.text-natuice-yellow {
+  color: #fed836;
+}
+.text-natuice-yellow-contrast {
+  color: #8c5b00;
+}
+.border-natuice-yellow {
+  border-color: #fed836;
+}
+

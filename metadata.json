@@ -1,0 +1,6 @@
+{
+  "name": "Sorvetes Natuice - Sorveteria Artesanal & Gelateria",
+  "description": "Site oficial da Sorvetes Natuice na Mooca, São Paulo/SP. R. Pires de Campos, 155. Mais de 250 sabores, picolés gourmet Magg, açaí artesanal e potes para toda a família. WhatsApp: (11) 98231-5188.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
